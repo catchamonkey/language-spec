@@ -1,8 +1,8 @@
 {
   "name": "language-spec",
   "version": "0.0.0",
-  "description": "provides syntax highlighting for .spec files",
-  "repository": "https://github.com/owlystuff/language-spec",
+  "description": "Provides syntax highlighting for .spec files",
+  "repository": "https://github.com/catchamonkey/language-spec",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
