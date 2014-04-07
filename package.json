@@ -1,0 +1,12 @@
+{
+  "name": "language-spec",
+  "version": "0.0.0",
+  "description": "provides syntax highlighting for .spec files",
+  "repository": "https://github.com/owlystuff/language-spec",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
