@@ -10,18 +10,18 @@
     'name': 'variable.parameter.spec'
   }
   {
-    'match': '(\\%\\{\\w+\\})'
+    'match': '(\\%\\{(\\?)?\\w+\\})'
     'name': 'variable.other.spec'
   }
   {
     'captures':
       '1':
         'name': 'entity.name.class.makefile'
-    'match': '^(\\%(description|prep|build|install|clean|files|changelog|pretrans|posttrans|preun|postun|pre|post))'
+    'match': '^(\\%(description|package|prep|build|install|check|clean|files|changelog|pretrans|posttrans|preun|postun|pre|post))'
     'name': 'meta.class.spec'
   }
   {
-    'match': '(\\%(undefine|define|global|trace|dump|setup|patch|else|endif|(if((n)?(def|arch|os)?))|))'
+    'match': '(\\%(undefine|define|global|trace|dump|setup|patch|else|endif|defattr|attr|doc|ghost|verify|docdir|dir|configure|(if((n)?(def|arch|os)?))|))'
     'name': 'keyword.control.rpmspec'
   }
   {
