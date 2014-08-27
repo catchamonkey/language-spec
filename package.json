@@ -1,7 +1,7 @@
 {
   "name": "language-spec",
   "version": "0.1.0",
-  "description": "Provides syntax highlighting for .spec files",
+  "description": "Provides syntax highlighting for RPM .spec files",
   "repository": "https://github.com/catchamonkey/language-spec",
   "license": "MIT",
   "engines": {
